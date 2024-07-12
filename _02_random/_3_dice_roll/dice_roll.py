@@ -8,7 +8,7 @@ import random
 
 
 def get_random_dice_image():
-    random_image = None
+    random_image = random.randint(1, 6)
 
     # TODO Run the code and click the button. Notice that only 1 side of
     #  the die is shown.
